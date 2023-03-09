@@ -1,0 +1,8 @@
+// Script to handle form submission
+const form = document.querySelector('form');
+form.addEventListener('submit', function(event) {
+	event.preventDefault();
+	const searchQuery = form.querySelector('input').value;
+	alert(`You searched for: ${searchQuery}`);
+	form.reset();
+});
