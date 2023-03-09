@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Blue and White Website</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<header>
+		<h1>My Blue and White Website</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+		<form>
+			<input type="text" placeholder="Search...">
+			<button type="submit">Go</button>
+		</form>
+	</header>
+	<main>
+		<p>Welcome to my website!</p>
+	</main>
+</body>
+</html>
